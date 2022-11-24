@@ -105,6 +105,35 @@ const Header = ({
                     'header-nav',
                     isActive && 'is-active'
                   )}>
+
+
+<div className="header-nav-inner">
+                  <ul className={
+                    classNames(
+                      'list-reset text-xs',
+                      navPosition && `header-nav-${navPosition}`
+                    )}>
+      
+
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>View Schedule</Link>
+                    </li>
+
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>Pay Your Bill</Link>
+                    </li>
+
+
+                  </ul>
+                  {!hideSignin &&
+                    <ul
+                      className="list-reset header-nav-right"
+                    >
+                      <li>
+                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Log in</Link>
+                      </li>
+                    </ul>}
+                </div>
                 <div className="header-nav-inner">
                   <ul className={
                     classNames(
@@ -112,26 +141,27 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#0" onClick={closeMenu}>For Home</Link>
                     </li>
 
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#0" onClick={closeMenu}>For Business</Link>
                     </li>
 
                     <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
+                      <Link to="#0" onClick={closeMenu}>About Us</Link>
                     </li>
+
+                    <li>
+                      <Link to="#0" onClick={closeMenu}>Learn</Link>
+                    </li>
+
                   </ul>
-                  {!hideSignin &&
-                    <ul
-                      className="list-reset header-nav-right"
-                    >
-                      <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li>
-                    </ul>}
                 </div>
+
+
+
+
               </nav>
             </>}
         </div>

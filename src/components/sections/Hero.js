@@ -60,7 +60,7 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
 
-        <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800" id='top'>
+        <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
               <Image
                 className="has-shadow" id='diaper'
                 src={require('./../../assets/images/diaper2.jpg')}
