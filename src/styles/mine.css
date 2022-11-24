@@ -1,0 +1,93 @@
+#heroic{
+    background-image: url(../assets//images/diaper2.jpg);
+    height: 25rem;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+#hero-title{
+    color: yellow;
+    margin: 0 42px;
+}
+#p{
+    opacity: 1;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Fredoka+One&family=Itim&family=Permanent+Marker&family=Rubik+Distressed&display=swap');
+
+.middle-hero{
+    height: 8rem;
+    display: flex;
+    background-color: beige;
+    flex-direction: row;
+    border-radius: 13px;
+    margin: -90px 40px 10px 70px;
+    align-items: center;
+    position: relative;
+}
+#find{
+    color: green;
+}
+.waste-services{
+    margin: 18px auto 8px 18px;
+    position: inherit;
+    
+}
+
+/* .waste-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 32px;
+} */
+
+#service-input{
+    border: 1px solid black;
+    margin: 12px 8px;
+    padding: 12px;
+    border-radius: 8px;
+    width: 20%;
+}
+
+.select-service{
+    border: 1px solid black;
+    margin: 12px 18px;
+    padding: 12px;
+    width: 20%;
+    border-radius: 8px;
+}
+
+#show-services{
+    text-decoration: none;
+    padding: 12px;
+    margin: 12px 8px;
+    border: none;
+    border-radius: 24px;
+    background-color: green;
+    color: white;
+}
+
+
+.services{
+    height: 50rem;
+    width: 100%;
+    
+}
+
+.services-container{
+    display: flex;
+    flex-direction: row;
+    margin: 3rem;
+}
+
