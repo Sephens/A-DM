@@ -5,19 +5,22 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-ga": "^2.7.0",
+    "react-icons": "^4.6.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
-    "sass": "^1.49.7"
+    "redux": "^4.2.0",
+    "sass": "^1.49.7",
+    "video-react": "^0.16.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/cruip/open-react-template.git"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

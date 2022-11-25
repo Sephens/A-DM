@@ -159,13 +159,13 @@ const Header = ({
                     </li>
 
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/About" onClick={closeMenu}>
                         About Us
                       </Link>
                     </li>
 
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
+                      <Link to="/Learn" onClick={closeMenu}>
                         Learn
                       </Link>
                     </li>

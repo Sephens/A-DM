@@ -3,7 +3,11 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Image from '../elements/Image';
-import sample from '../../assets/images/bin3.jpg'
+import sample from '../../assets/images/pica.jpg'
+
+import { FcMoneyTransfer } from 'react-icons/fc';
+import {GrSchedules} from 'react-icons/gr'
+import {FaTruckPickup} from 'react-icons/fa'
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -45,8 +49,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Build up the whole picture',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Keep the environment clean and safe',
+    paragraph: 'Saving our planet, lifting people out of poverty, advancing economic growth… these are one and the same fight..'
   };
 
   return (
@@ -74,7 +78,7 @@ const FeaturesTiles = ({
                     Residential Pickup
                     </h4>
                   <p className="service-desc">
-                    Make your home clean by choosing the best of waste management services. Let us keep the environment clean by kicking diapers away fro home.
+                    Make your home clean by choosing the best of waste management services. Let us keep the environment clean by kicking diapers away from home.
                     </p>
                 </div>
               </div>
@@ -132,20 +136,16 @@ const FeaturesTiles = ({
           <div className='more-small'>
 
             <div className='see-schedule'>
-              <img src={sample} className='imago'/>
-              <h4>Hello</h4>
+              <FcMoneyTransfer className='pay-icons'/>
+              <p className='p'>Pay Your Bills Online</p>
             </div>
             <div className='pay-bill'>
-            <img src={sample} className='imago'/>
-              <h4>Hello</h4>
+            <GrSchedules className='pay-icons'/>
+              <p className='p'>See Pickup Schedules</p>
             </div>
             <div className='see-schedule'>
-            <img src={sample} className='imago'/>
-              <h4>Hello</h4>
-            </div>
-            <div className='pay-bill'>
-            <img src={sample} className='imago'/>
-              <h4>Hello</h4>
+            <FaTruckPickup className='pay-icons'/>
+              <p className='p'>Request Bulk Pickup</p>
             </div>
 
           </div>
@@ -153,15 +153,15 @@ const FeaturesTiles = ({
           <div className='learn'>
             <img src={sample} id='learn-img'/>
             <div>
-              <h3>Learn more on Environmental Hygiene</h3>
-              <p> lorem </p>
-              <a href="#" id='more-btn'> Sign Up for My ADM</a>
+              <h3 id='h3'>Learn more on Environmental Hygiene</h3>
+              <p> Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it is the only thing that ever has </p>
+              <a href="#" id='more-btn'> Learn</a>
             </div>
 
           </div>
 
           <div className='assistance'>
-            <h3>Need Assistance?</h3>
+            <h3 id='h3'>Need Assistance?</h3>
             <p>Our team is readily available to offer an hand in case of problem</p>
             <a href="#" id='more-btn'> View support center</a>
           </div>
