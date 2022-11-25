@@ -4,6 +4,8 @@ import classNames from "classnames";
 import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
 
+import Login from '../pages/Login'
+
 const propTypes = {
   navPosition: PropTypes.string,
   hideNav: PropTypes.bool,
@@ -104,7 +106,6 @@ const Header = ({
                 ref={nav}
                 className={classNames("header-nav", isActive && "is-active")}
               >
-                <hr />
                 <div className="header-nav-inner">
                   <ul
                     className={classNames(
@@ -128,7 +129,7 @@ const Header = ({
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
-                          to="#0"
+                          to="/Login"
                           className="button button-primary button-wide-mobile button-sm"
                           onClick={closeMenu}
                         >
@@ -138,7 +139,6 @@ const Header = ({
                     </ul>
                   )}
                 </div>
-                <hr />
                 <div className="header-nav-inner">
                   <ul
                     className={classNames(

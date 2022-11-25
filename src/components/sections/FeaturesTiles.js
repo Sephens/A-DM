@@ -85,7 +85,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header bin-divs">
                   <div className="features-tiles-item-image mb-16">
                     <Image className='bin-img'
-                      src={require('./../../assets/images/bin4.jpg')}
+                      src={require('./../../assets/images/b-pick.jpg')}
                       alt="Features tile icon 02"
                     />
                   </div>
@@ -107,7 +107,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header bin-divs">
                   <div className="features-tiles-item-image mb-16">
                     <Image className='bin-img'
-                      src={require('./../../assets/images/bin4.jpg')}
+                      src={require('./../../assets/images/trash.png')}
                       alt="Features tile icon 02"
                     />
                   </div>

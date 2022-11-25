@@ -100,7 +100,7 @@
     height: 80%;
 }
 
-.bin-divs{
+/* .bin-divs{
     display: flex;
     background-color: aqua;
     width: 240px;
@@ -108,7 +108,7 @@
     border-radius: 50%;
     align-items: center;
 
-}
+} */
 
 .more{
     display: flex;
@@ -159,4 +159,15 @@
 #learn-img{
     
     height: 15rem;
+}
+
+#logo{
+    width: 70%;
+    margin-top: 32px;
+    
+}
+
+#link-head{
+    color: green;
+    font-size: 18px;
 }
